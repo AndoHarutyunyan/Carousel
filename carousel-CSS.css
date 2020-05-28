@@ -16,6 +16,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    align-items: center;
+    outline: none;
 }
 .slayder {
     margin: auto;
@@ -24,6 +26,8 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    align-items: center;
+    outline: none;
 }
 .imgClass {
     display: flex;
