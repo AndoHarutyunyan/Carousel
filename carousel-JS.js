@@ -13,8 +13,8 @@ function nextRight(){
             return imgClass[i+1].classList.toggle('orderName')
         }
     }
-    if(imgClass[5].className==="imgClass orderName"){
-        imgClass[5].classList.toggle('orderName')
+    if(imgClass[imgClass.length-1].className==="imgClass orderName"){
+        imgClass[imgClass.length-1].classList.toggle('orderName')
     }else{
         imgClass[1].classList.toggle('orderName')
     }
@@ -30,7 +30,7 @@ function NextLeft() {
     }
     if(imgClass[0].className!=='imgClass orderName' ||imgClass[0].className==='imgClass orderName'){
         imgClass[0].classList.remove('orderName')
-        imgClass[5].classList.toggle('orderName')
+        imgClass[imgClass.length-1].classList.toggle('orderName')
     }
 
 }
